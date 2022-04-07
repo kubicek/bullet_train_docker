@@ -16,10 +16,10 @@ If you're building a new application with Bullet Train, you don't want to "Fork"
     $ cd your_new_project_name
     ```
 
-3. Run the configuration script:
+3. Run the instalation and configuration script:
 
     ```
-    $ bin/rails app:template LOCATION=https://raw.githubusercontent.com/kubicek/bullet_train_docker/main/template.rb
+    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/kubicek/bullet_train_docker/main/install.sh)"
     ```
 
 <br>
